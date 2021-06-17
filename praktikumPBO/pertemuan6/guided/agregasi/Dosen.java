@@ -17,11 +17,4 @@ public class Dosen {
         return nama;
     }
 
-    public void setNidn(String nidn) {
-        this.nidn = nidn;
-    }
-
-    public void setNama(String nama) {
-        this.nama = nama;
-    }
 }

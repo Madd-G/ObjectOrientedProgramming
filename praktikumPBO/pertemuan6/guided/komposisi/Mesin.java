@@ -1,9 +1,9 @@
 package alamsyah.praktikumPBO.pertemuan6.guided.komposisi;
 
 public class Mesin {
-    private String radiator;
-    private String oli;
-    private int piston;
+    private final String radiator;
+    private final String oli;
+    private final int piston;
 
     public Mesin(String radiator, String oli, int piston) {
         this.radiator = radiator;
@@ -15,23 +15,11 @@ public class Mesin {
         return radiator;
     }
 
-    public void setRadiator(String radiator) {
-        this.radiator = radiator;
-    }
-
     public String getOli() {
         return oli;
     }
 
-    public void setOli(String oli) {
-        this.oli = oli;
-    }
-
     public int getPiston() {
         return piston;
-    }
-
-    public void setPiston(int piston) {
-        this.piston = piston;
     }
 }

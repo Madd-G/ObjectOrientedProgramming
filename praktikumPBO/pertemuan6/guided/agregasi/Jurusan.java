@@ -11,19 +11,15 @@ public class Jurusan {
     }
 
     // getter dan Setter
+    public void setDosen(Dosen dosen) {
+        this.dosen = dosen;
+    }
+
     public String getNamaJurusan() {
         return namaJurusan;
     }
 
-    public void setNamaJurusan(String namaJurusan) {
-        this.namaJurusan = namaJurusan;
-    }
-
     public Dosen getDosen() {
         return dosen;
-    }
-
-    public void setDosen(Dosen dosen) {
-        this.dosen = dosen;
     }
 }

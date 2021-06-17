@@ -10,13 +10,6 @@ public class Mobil {
         this.nama = nama;
     }
 
-    public Mobil(String nama, Jok jok, Mesin mesin, Roda roda) {
-        this.nama = nama;
-        this.jok = jok;
-        this.mesin = mesin;
-        this.roda = roda;
-    }
-
     public String getNama() {
         return nama;
     }
@@ -40,7 +33,7 @@ public class Mobil {
     public void showSpec() {
         System.out.println("Spesifikasi Mobil " + nama + ":");
         System.out.println("Jok:");
-        System.out.println("- " + jok.getBahan() );
+        System.out.println("- " + jok.getBahan());
         System.out.println("- Bahan : ");
         System.out.println("- Ukuran: " + jok.getUkuran());
         System.out.println();

@@ -1,14 +1,17 @@
 package alamsyah.praktikumPBO.pertemuan6.guided.asosiasi;
 
 public class Matkul {
-    private String namaMatkul;
-    private String kodeMatkul;
+    // attribute
+    private final String namaMatkul;
+    private final String kodeMatkul;
 
+    // constructor
     public Matkul(String namaMatkul, String kodeMatkul) {
         this.namaMatkul = namaMatkul;
         this.kodeMatkul = kodeMatkul;
     }
 
+    // getter
     public String getNamaMatkul() {
         return namaMatkul;
     }
@@ -17,11 +20,5 @@ public class Matkul {
         return kodeMatkul;
     }
 
-    public void setNamaMatkul(String namaMatkul) {
-        this.namaMatkul = namaMatkul;
-    }
 
-    public void setKodeMatkul(String kodeMatkul) {
-        this.kodeMatkul = kodeMatkul;
-    }
 }
